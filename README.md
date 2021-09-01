@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<style>
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
 
-You can use the [editor on GitHub](https://github.com/ccwilliams1/Assignment1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    ul {
+        font-size: 25px;
+    }
+		.background {
+			background: linear-gradient(90deg, rgba(161,161,236,1) 0%, rgba(232,252,193,1) 50%, rgba(240,192,125,1) 100%);
+		}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    </style>
+<html class="background">
+<h2 style="text-align: center;"> Hello, my name is Caleb Williams. I'm a third year Computer Science student at North Carolina A&T State University. I am interested in cloud computing and architecture as well as back-end development. I am currently interning at Cisco Systems as a Software Engineer and previously I interned at SAS Institute, a data analytics company where I was a software test engineer. Aside from technical skills I enjoy cooking and playing the guitar occasionally.</strong>
+</h2>
+</p>
+<img src="images/CalebWilliams.png" alt="Caleb Williams" style="width:200px;height:250px;" class="center">
 
-### Markdown
+<ul class="center">
+<h3>The Courses I'm Taking This Semester:</h3>
+<li><strong>COMP 267:</strong>  <em>Database Design</em></li>
+<li><strong>COMP 285:</strong> <em>Analysis of Algorithms</em></li>
+<li><strong>COMP 322:</strong> <em>Internet Systems</em></li>
+<li><strong>COMP 360:</strong><em>Programming Languages</em></li>
+<li><strong>COMP 390:</strong> <em>Social Implications of Computing</em></li>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</ul>
 
-```markdown
-Syntax highlighted code block
+<a  href="introduction.html" style="margin-left: 425px; font-size: 30px;">A Link to my Introduction</a>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ccwilliams1/Assignment1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>

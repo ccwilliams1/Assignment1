@@ -1,0 +1,117 @@
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">
+</head>
+<form name = "theForm" onsubmit="validateForm(); return false">
+    <table>
+    <tr>
+        <td class = 'lbl'>
+            <label for="username">Username:</label>
+        </td>
+        <td class = 'inpt'>
+            <input type="text" id="username">  
+        </td>
+    </tr>
+    <tr>
+        <td class="lbl">
+            <label for="email">Email:</label>
+        </td>
+        <td class= "inpt">
+            <input type="text"id="email">
+        </td>
+    </tr>
+    <tr>
+        <td class="lbl">
+            <label for="phoneNumber">Phone Number:</label>
+        </td>
+        <td class = "inpt">
+            <input type="text"id="phoneNumber">
+        </td>
+    </tr>
+    <tr>
+        <td class = "lbl">
+            <label for="password">Enter Password:</label>
+        </td>
+        <td class = 'inpt'>
+            <input type="password"id="password">
+        </td>
+    </tr>
+        <td class = "lbl">
+            <label for="passwordConf">Confirm Password:</label>
+        </td>
+        <td class = "inpt">
+            <input type="password" id="passwordConf" class='box'>
+        </td>
+    <tr>
+
+    </tr>
+        <td class="lbl">
+            <label for="Gender">Gender:</label>
+        </td>
+        <td class="inpt">
+            <input type="radio" name = "gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name = "gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name = "gender" id="other">
+            <label for="other">Other</label>
+        </td>
+    <tr>
+
+    <tr>
+        <td class = "lbl">
+            <label for="ageGroup">Age Group:</label>
+        </td>
+        <td class = "inpt">
+            <select id="ageGroup">
+                <option value=""></option>
+                <option value="21"> <21 years old </option>
+                <option value="21-25"> 21-25 years old </option>
+                <option value="26-35"> 26-35 years old </option>
+                <option value="36-50"> 36-50 years old </option>
+                <option value=">50"> >50 years old </option>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td class = "lbl">
+            <label for="music">Favorite Music Genre:</label>
+        </td>
+        <td class = "inpt">
+            <input type="checkbox" id="pop" value="Pop">
+            <label for="pop"> Pop</label>
+            <input type="checkbox" id="hiphop"value="Hip-Hop">
+            <label for="hiphop"> Hip-Hop</label>
+            <input type="checkbox" id="jazz" value="Jazz">
+            <label for="jazz"> Jazz</label>
+            <input type="checkbox" id="rock"value="Rock">
+            <label for="rock"> Rock</label>
+            <input type="checkbox" id="classical" value="Classical">
+            <label for="classical"> Classical</label>
+            <input type="checkbox" id="country" value="Country">
+            <label for="country"> Country Music</label>
+            </div>
+
+
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <button type="submit" id="submit" style="float:right">Submit</button>
+        </td>
+        <td>
+            <button type="reset" id="clear float:left" onclick ="clearForm()">Clear</button>
+        </td>
+    </tr>
+
+    </table>
+</form>
+<div id = "validationLabels"></div>
+
+
+
+<script type="text/javascript" src="validate.js"></script>
+
+</html>
